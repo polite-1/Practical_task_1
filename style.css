@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+  background: #242830;
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+a:hover {
+  color: #0c87f7;
+}
+
+.wrapper {
+  width: 80%;
+  margin: 30px auto;
+}
+
+.wrapper h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  text-shadow: 0 0 3px #000;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+}
+
+.info img {
+  width: 45%;
+  border-radius: 5%;
+  margin-right: 20px;
+}
+
+.wrap-info-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.info-text h3 {
+  color: #8a94a7;
+  font-size: 17px;
+  text-shadow: 0 0 3px #000;
+}
+
+.info-text span {
+  padding: 10px 0;
+}
+
+.block {
+  background: #2c3039;
+  border-radius: 2%;
+  box-shadow: 0 0 5px #0c87f7;
+  margin: 30px 0;
+  padding: 10px;
+}
+
+.title-block {
+  font-size: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+  color: #8a94a7;
+  text-shadow: 0 0 3px #000;
+}
+
+.goals ul {
+  padding-left: 50px;
+}
+
+.goals li {
+  list-style-image: url(chek.svg);
+  padding-bottom: 20px;
+}
+
+.table {
+  margin: 0 auto;
+}
+
+.timetable table td {
+  padding-bottom: 10px;
+}
+
+.timetable table td:first-child {
+  padding-right: 60px;
+}
+
+.courses .table {
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.table thead th {
+  padding: 10px 15px;
+  border-bottom: 1px solid #03cbb2;
+}
+
+.courses .table tbody td {
+  padding: 10px;
+}
+
+.wrap-social {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px auto;
+}
+
+.social a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.social img {
+  width: 50px;
+  padding-bottom: 10px;
+}
+
+.social a img:hover {
+  opacity: 0.5;
+}
+
+@media (min-width: 650px) {
+  .wrapper {
+    width: 500px;
+  }
+}
+
+@media (max-width: 650px) {
+  body {
+    font-size: 90%;
+  }
+
+  .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .info-text {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .wrap-info-text {
+    display: flex;
+    align-items: baseline;
+  }
+
+  .wrap-info-text h3 {
+    margin-right: 10px;
+  }
+}
